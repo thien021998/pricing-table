@@ -32,11 +32,14 @@
   color: white;
   padding-top: 15px;
 }
+#icons:hover{
+  color: #00bcd4;
+}
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
-
+  position: sticky;
 }
 .content{
   text-align: center;
@@ -53,8 +56,6 @@ li {
   float: left;
 }
 li a:hover{
-	border-style: ridge;
-  border-color:white;
   color: #00bcd4
 }
 li a {
@@ -107,7 +108,7 @@ img {
   width: 100%;
   position: relative;
   margin: auto;
-  height: 850px;
+  height: 500px;
 }
 .prev,
 .next {
@@ -149,12 +150,13 @@ img {
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
+  border: 1px solid white;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 .active,
 .dot:hover {
-  background-color: #717171;
+  background-color: #00bcd4;
 }
 .fade {
   -webkit-animation-name: fade;
@@ -241,6 +243,7 @@ h1{
 .col2{
   width:80%;
   display: table-cell;
+
 }
 .col3{
   width:25%;
@@ -248,11 +251,22 @@ h1{
   background-color:#f0f3f2;
 }
 .col3:hover{
-  transform: scale(1,1.125);
+  /* transform: scale(1,1.125); */
   background-color:white;
 }
 .col3:hover button {
   background-color: #00bcd4
+}
+.test{
+  transition: all 1s;
+  background-color:#f0f3f2;
+  height:30px;
+  border-bottom:none ;
+}
+
+.col3:hover .test{
+  transform: scale(1,3);
+  background-color: white;
 }
 .col5{
   height: 110px;
@@ -305,9 +319,130 @@ h1{
 /* Style the footer */
 .footer {
   background-color: #212331;
-  text-align: center;
   margin-top: 40px;
 }
+.foot-title{
+  color: white;
+}
+.col-wrap-foot {
+  display: table;
+  width: 100%;
 
+}
+.col-table{
+  width:25%;
+  transition: all 1s;
+  background-color:#212331;
+  width:302px;
+  border: 1px solid #212331;
+  color: #99a9b5;
+  padding: 10px;
+}
+.contact{
+  border-bottom: 1px dashed #91a0ac ;
+}
+.text-contact{
+  color: #00bcd4;
+}
+.text-contact:hover{
+  color: #99a9b5;
+}
+.avatar{
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #63707a;
+}
+.table-border{
+  border-bottom: 1px dashed #91a0ac ;
+  padding:10px
+}
+.form-input{
+  color: #99a9b5;
+  background-color: #181828;
+  border: 1px solid #181828 ;
+}
+.email-input{
+  width: 100%;
+}
+.form-btn{
+  width: 100%;
+  background-color: #394050;
+  color: #99a9b5;
+  border: 1px solid #394050;
+}
+.project{
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.grid-item {
+  background-color: #5c6973;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 10px 10px;
+  grid-template-columns: auto auto auto;
+  background-color:  #212331;
+  padding: 10px;
+}
+.icons-cricle{
+  font-size: 8px;
+  color: #00bcd4;
+}
+.icons-cricle:hover{
+  color: white;
+}
+.text-user{
+  border-bottom: 1px dashed #91a0ac;
+  padding-bottom: 10px;
+}
+.text-hover:hover{
+  color: #00bcd4;
+}
+.text-logo{
+  color: white;
+  font-size: 30px;
+}
+.text-logo-weight{
+  font-weight: 800;
+}
+.text-recent-date{
+  color: #00bcd4;
+}
+.icons-recent{
+  float: right;
+}
+.icons-recent:hover{
+  color: #00bcd4;
+}
+.icons-title{
+  font-size: 16px;
+  color:red
+}
+.col-table-foot{
+  width:10%;
+  border: 1px solid #181828;
+}
+.side{
+  width:20%;
+  background-color:#212331;
+  border: 1px solid #212331;
+  color: #99a9b5;
 
+}
+.widle{
+  width:80%;
+  background-color:#212331;
+  border: 1px solid blue;
+  color: #99a9b5;
 
+}
+.icons-foot{
+  padding: 15px 10px 0 0;
+  float: right;
+}
