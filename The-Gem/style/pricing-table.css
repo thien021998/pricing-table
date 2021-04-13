@@ -26,6 +26,7 @@
 .logo-img {
   height: 40px;
   width: 40px;
+  margin-bottom: 15px;
 }
 
 .logo-text {
@@ -35,16 +36,16 @@
 }
 
 .item-menu {
-  font-size: initial;
+  font-size: small;
   color: #99a9b5;
   font-weight: bold;
   margin-left: 10px;
   color: antiquewhite;
 }
 
-/* .vien{
+.vien{
   padding-right: 20px;
-} */
+}
 .icons {
   padding: 10px;
   margin-right: 20px;
@@ -64,13 +65,18 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #83909d;
   text-align: center;
   padding: 6px 8px;
   text-decoration: none;
 }
 
 li a:hover {
+  color: #00bcd4;
+  text-decoration: none
+}
+
+li i:hover {
   color: #00bcd4;
   text-decoration: none
 }
@@ -92,7 +98,8 @@ li a:hover {
 }
 
 .text-slide {
-  margin-left: 22%;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 900px;
   text-align: center;
 }
@@ -232,6 +239,7 @@ a {
 .table-price {
   height: 120px;
   border: 1px solid #dfe5e7;
+  color: white;
 }
 
 .table-comment {
@@ -246,13 +254,15 @@ a {
 }
 
 .table-btn {
-  height: 80px;
+  height: 85px;
   border: 1px solid #dfe5e7;
   border-top: none;
 }
 
 .table-scale {
   height: 30px;
+  width: 292px;
+  margin-left: -1px;
   transition: all 1s;
   background-color: #f0f3f2;
   border: 1px solid #dfe5e7;
@@ -260,10 +270,13 @@ a {
 }
 
 .table-scale1 {
-  margin-top: 10px;
+  margin-top: 20px;
   height: 30px;
+  width: 292px;
+  margin-left: -1px;
   transition: all 1s;
   background-color: #f0f3f2;
+  /* background-color: blue; */
   border: 1px solid #dfe5e7;
   border-top: none
 }
@@ -299,12 +312,12 @@ a {
   transition: all 1s;
 }
 
-.item-hover:hover button {
+/* .item-hover:hover button {
   background-color: #00bcd4
-}
+} */
 
 .col-text-price {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 500;
   padding: 40px;
 }
@@ -313,16 +326,18 @@ a {
   border-bottom: 1px solid #dfe5e7;
   margin: 0;
   padding: 5px;
+  font-size: 13px;
 }
 
 .col-text-color {
   color: #a0afba;
+  font-size: 13px;
 }
 
 .absolute {
   position: absolute;
   top: -30px;
-  left: 0;
+  left: 30px;
   width: 50px;
   height: 50px;
   border: 3px solid black;
@@ -346,7 +361,9 @@ a {
   border-color: white;
   color: white;
 }
-
+.col-btn:hover{
+  background-color: #00bcd4
+}
 /* style of after footer*/
 .table-logo {
   height: 300px;
@@ -415,7 +432,7 @@ a {
   grid-gap: 10px 10px;
   grid-template-columns: auto auto auto;
   background-color: #212331;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .icons-cricle {
@@ -490,4 +507,10 @@ footer {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+
+.test{
+  background-color:white;
+  color:black;
 }
