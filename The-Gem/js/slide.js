@@ -42,19 +42,6 @@ function showSlides(n) {
   dots1[slideIndex-1].className += " active";
 };
 
-// var mynav = document.getElementById("fixnav");
-// window.scroll = function(){navcolor()};
-// function navcolor(){
-//   console.log(document.getElementById("fixnav"))
-//   if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-//     mynav.style.background = "white";
-//     mynav.style.color = "black";
-//     console.log(mynav.style.color)
-//   } else {
-//     mynav.style.background = "#2c2e3d";
-//     mynav.style.color = "white"
-//   }
-// };
 
 var mynav = document.getElementById("fixnav");
 var mylogo = document.getElementsByClassName("logo-text")

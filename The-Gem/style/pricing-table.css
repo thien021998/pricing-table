@@ -282,7 +282,8 @@ a {
 }
 
 .item-hover:hover .table-scale {
-  transform: scale(1, 2);
+  /* transform: scale(1, 2); */
+  transform: translateY(-20px);
   border: 1px solid #dfe5e7;
   border-bottom: none;
   background-color: white;
@@ -312,9 +313,6 @@ a {
   transition: all 1s;
 }
 
-/* .item-hover:hover button {
-  background-color: #00bcd4
-} */
 
 .col-text-price {
   font-size: 45px;
