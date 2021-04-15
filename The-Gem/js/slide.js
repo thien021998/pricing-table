@@ -1,17 +1,21 @@
 var slideIndex = 0;
 
 show();
+
 function show() {
   showSlides(slideIndex,`mySlides`,`dot`);
   showSlides(slideIndex,`mySlides1`,`dot1`);
-  setTimeout(show, 2000);
+  setTimeout(show, 3500);
 };
+
 function plusSlides(n,y,j) {
   showSlides(slideIndex += n,y,j);
 };
+
 function currentSlide(n,y,j) {
   showSlides(slideIndex = n,y,j);
 };
+
 function showSlides(n,m,l) {
   var i;
   var slides = document.getElementsByClassName(m);

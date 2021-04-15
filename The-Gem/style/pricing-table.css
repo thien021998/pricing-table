@@ -117,7 +117,7 @@
   width: 120px;
   height: 40px;
   background-color: #2b2d3d;
-  border-style: ridge;
+  border-style: solid;
   border-color: white;
   color: white;
 }
