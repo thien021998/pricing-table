@@ -5,11 +5,12 @@ show();
 function show() {
   showSlides(slideIndex,`mySlides`,`dot`);
   showSlides(slideIndex,`mySlides1`,`dot1`);
-  setTimeout(show, 3500);
+  setTimeout(show, 3000);
+  slideIndex++;
 };
 
 function plusSlides(n,y,j) {
-  showSlides(slideIndex += n,y,j);
+  showSlides(slideIndex +=n,y,j);
 };
 
 function currentSlide(n,y,j) {
@@ -28,7 +29,6 @@ function showSlides(n,m,l) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slideIndex++;
   if (slideIndex > slides.length) { slideIndex = 1 }
   if (slideIndex < 1) { slideIndex = slides.length }
   slides[slideIndex - 1].style.display = "block";

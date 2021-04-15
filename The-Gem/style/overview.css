@@ -12,10 +12,18 @@
 .table-recent,
 .table-useful,
 .table-email,
-.table-project,
-.table-flick,
-.table-letter {
+.table-flick {
   height: 400px;
+}
+.table-project{
+  margin-top: -40px;
+  padding: 0;
+  height: 400px;
+}
+.table-letter{
+  height: 400px;
+  margin-top: 50px;
+  padding: 0;
 }
 .text-contact {
   color: #00bcd4;
