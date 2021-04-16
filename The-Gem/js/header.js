@@ -7,10 +7,10 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    console.log(mylogo)
     mybutton.style.display = "block";
     mynav.style.background = "white";
     mylink.style.border = "3px ridge black"
-    mylogo[0].style.color = "black";
     mylogo[0].style.color = "black";
   } else {
     mybutton.style.display = "none";

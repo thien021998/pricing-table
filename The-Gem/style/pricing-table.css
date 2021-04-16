@@ -3,7 +3,6 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .pricing-text{
   margin-bottom: 100px;
 }
@@ -14,6 +13,8 @@
 .table-title {
   height: 120px;
   border: 1px solid #dfe5e7;
+  transition: all 1s;
+  border-bottom: none;
 }
 .table-price {
   height: 120px;
@@ -33,36 +34,25 @@
   font-size: 16px;
 }
 .table-btn {
-  height: 85px;
+  height: 50px;
   border: 1px solid #dfe5e7;
   border-top: none;
+  border-bottom: none;
 }
 .table-scale {
-  height: 30px;
-  width: 292px;
-  margin-left: -1px;
-  transition: all 1s;
-  background-color: #f0f3f2;
+  height: 35px;
   border: 1px solid #dfe5e7;
-  border-bottom: none
-}
-.table-scale1 {
-  margin-top: 20px;
-  height: 30px;
-  width: 292px;
-  margin-left: -1px;
+  border-top: none;
   transition: all 1s;
-  background-color: #f0f3f2;
-  border: 1px solid #dfe5e7;
-  border-top: none
 }
-.item-hover:hover .table-scale {
+.item-hover:hover .table-title {
   transform: translateY(-20px);
   border: 1px solid #dfe5e7;
   border-bottom: none;
   background-color: white;
 }
-.item-hover:hover .table-scale1 {
+
+.item-hover:hover .table-scale {
   transform: translateY(20px);
   border: 1px solid #dfe5e7;
   border-top: none;
@@ -70,12 +60,12 @@
 }
 .text-animation {
   transition: all 1s;
-}
-.item-hover:hover .text-animation {
-  transform: translateY(-20px);
+  margin-top: 40px;
 }
 .item-hover {
   padding: 0;
+  transition: all 1s;
+  border: none;
 }
 .item-hover:hover {
   background-color: white;
@@ -110,7 +100,7 @@
   transition: all 1s;
 }
 .item-hover:hover .absolute {
-  transform: translateY(-10px);
+  transform: translateY(-20px);
 }
 .col-btn {
   border-radius: 50px;
