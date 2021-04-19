@@ -1,0 +1,21 @@
+@media (min-width: 480px) and (max-width: 768px) {
+  .footer {
+    padding: 25px;
+    background-color:#181828;
+  }
+  .foot-icons{
+    text-align: center;
+  }
+
+  .foot-list{
+    margin-bottom: -20px;
+    padding: 0;
+  }
+  .foot-text{
+    text-align: center;
+  }
+  .foot-text-list{
+    padding-right: 0;
+    border-right:1px dashed #333146
+  }
+}

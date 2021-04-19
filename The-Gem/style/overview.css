@@ -1,4 +1,8 @@
-.overview{
+@import"Desktop/overview-desk.css";
+@import"Smart/overview-mobie.css";
+@import"Iphone/overivew-iphone.css";
+@import"Tablet/overview-tablet.css";
+/* .overview{
   background-color: #212331;
   color: #99a9b5;
   font-size: 13px;
@@ -106,4 +110,4 @@
 .icons-title {
   font-size: 13px;
   color: red
-}
+} */

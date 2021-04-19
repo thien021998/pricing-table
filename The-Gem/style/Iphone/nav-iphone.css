@@ -1,0 +1,40 @@
+@media (min-width: 320px) and (max-width: 479px){
+  #nav-desk{
+    display: none;
+  }
+  #nav-mobie{
+    display: block;
+  }
+  .logo-img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+  }
+  .logo-text {
+    font-size: 1.5em;;
+    font-weight: 800;
+    color: white;
+  }
+  #menu{
+    display: block;
+    background-color: #2c2e3d;
+    color: white;
+  }
+  #cart{
+    display: block;
+    background-color: #2c2e3d;
+    color: white;
+  }
+  #close{
+    display: none;
+    background-color: #2c2e3d;
+    color: white;
+  }
+  #list-menu{
+    display: none;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    border-top: 1px solid black;
+  }
+}

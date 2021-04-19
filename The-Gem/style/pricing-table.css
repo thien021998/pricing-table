@@ -1,4 +1,8 @@
-.pricing{
+@import"Desktop/pricing-desk.css";
+@import"Smart/pricing-mobie.css";
+@import"Iphone/pricing-iphone.css";
+@import"Tablet/pricing-tablet.css";
+/* .pricing{
   background-color: white;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -113,4 +117,4 @@
 }
 .col-btn:hover{
   background-color: #00bcd4
-}
+} */
