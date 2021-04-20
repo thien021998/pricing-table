@@ -20,7 +20,7 @@
   <nav class="navbar" id="fixnav">
     <div class="container" id="nav-desk" style="padding: 0;">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2" >
           <img class="logo-img" src="image/logo.png" alt="the gem logo">
           <span class="logo-text" id="logo">THE<b>GEM</b></span>
         </div>
@@ -53,18 +53,29 @@
     </div>
 
 
-    <div class="container text-center" id="nav-mobie" style="padding: 0;margin: 0;">
+    <div class="container text-center" id="nav-mobie">
       <div class="row">
-        <div class="col-xs-2">
-          <button style="border: none;" onclick="OpenClick()"  id="menu" ><i class="fas fa-bars"style="font-size: 20px;"></i></button>
-          <button style="border: none;" onclick="CloseClick()"  id="close" ><i class="fas fa-times"style="font-size: 20px;"></i></button>
+        <div class="col-xs-3 col-sm-4 col-md-4">
+          <button style="border: none;" onclick="OpenClick()"  id="menu" ><i class="fas fa-bars"></i></button>
+          <button style="border: none;" onclick="CloseClick()"  id="close" ><i class="fas fa-times"></i></button>
         </div>
-        <div class="col-xs-8">
+        <div class="col-xs-6 col-sm-4 col-md-4">
           <img class="logo-img" src="image/logo.png" alt="the gem logo">
           <span class="logo-text" id="logo">THE<b>GEM</b></span>
         </div>
-        <div class="col-xs-2" style="padding: 0;">
-          <button style="border: none;" id="cart" ><i class="fas fa-shopping-cart" style="font-size: 20px;"></i></button>
+        <div class="col-xs-3 col-sm-4 col-md-4" padding: 0;>
+          <button style="border: none;" id="cart" ><i class="fas fa-shopping-cart"></i></button>
+          <!-- <ul class="list" id="nav-list-icons">
+            <li class="item-menu vien list-item"><img src="image/english.png" alt="Lights" class="list-item-img"></li>
+            <li class="item-menu list-item list-item-icons" style="padding-right: 10px;"><i class="fas fa-search"
+                id="icons"></i></li>
+            <li class="item-menu list-item list-item-icons"><i class="fas fa-shopping-basket" id="icons"></i>
+            </li>
+            <li class="item-menu list-item badges" style="margin-left: 0;">
+              <img src="image/count_product.png" alt="Lights" class="badges-img">
+              <span class="badges-text">2</span>
+            </li>
+          </ul> -->
         </div>
       </div>
     </div>
@@ -155,7 +166,7 @@
   </div>
 
   <div class="pricing">
-    <div class="container bg-3 text-center">
+    <div class="container bg-3 text-center" id="table-desk">
       <h1>LOREM <b>IPSUM</b></h1>
       <p class="pricing-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -172,7 +183,7 @@
         adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
         dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam voluptatem quia
         voluptas sit aspernatur aut odit aut fugit</p>
-      <div class=" text-center table-body">
+      <div class=" text-center table-body" style="padding: 0;">
         <div class="col-md-3 col-sm-6 col-xs-12 item-hover" id="table-desk">
           <div class="table-title">
             <div class="table-scale-top"></div>
@@ -328,7 +339,7 @@
           <div class="table-recent">
             <h3 class="foot-title">Recent Posts<i class="icons-title">&#9699;</i></h3>
             <table class="list-recent">
-              <tr>
+              <tr id="row-overview">
                 <td class="table-border-avatar">
                   <div class="avatar"></div>
                 </td>
@@ -338,7 +349,7 @@
                         class="fas fa-comments">0</i></span></span>
                 </td>
               </tr>
-              <tr>
+              <tr id="row-overview">
                 <td class="table-border-avatar">
                   <div class="avatar"></div>
                 </td>
@@ -348,7 +359,7 @@
                         class="fas fa-comments">14</i></span></span>
                 </td>
               </tr>
-              <tr>
+              <tr id="row-overview">
                 <td class="table-border-avatar">
                   <div class="avatar"></div>
                 </td>
@@ -476,7 +487,7 @@
           <i class="fab fa-r-project" id="icons-foot" style="color: #ff5757;"></i>
         </div>
         <div class="col-md-6">
-          <ul class="list foot-list" style="padding-top: 0;">
+          <ul class="list foot-list" id="foot-link">
             <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text">Support</a>
             </li>
             <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text">Contact Us</a>

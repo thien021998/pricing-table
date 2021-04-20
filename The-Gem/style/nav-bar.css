@@ -2,6 +2,7 @@
 @import"Smart/nav-smart.css";
 @import"Iphone/nav-iphone.css";
 @import"Tablet/nav-tablet.css";
+@import"Ipad/nav-ipad.css";
 /* #fixnav {
   position: fixed;
   width: 100%;

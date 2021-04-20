@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .footer {
     padding: 25px;
     background-color:#181828;
@@ -19,5 +19,4 @@
     padding-right: 0;
     border-right:1px dashed #333146
   }
-
 }

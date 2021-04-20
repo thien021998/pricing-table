@@ -1,43 +1,47 @@
-@media (min-width: 320px) and (max-width: 479px){
+@media (min-width: 768px) and (max-width: 1024px) {
   .overview {
     background-color: #212331;
     color: #99a9b5;
     font-size: 13px;
-    height: 2770px;
   }
 
-  .table-useful, .table-logo {
-    margin-top:50px;
-    height: 100%;
+  .table-logo {
+    height: 300px;
   }
 
   .table-contact {
-    height: 100%;
-    margin-top:50px;
+    height: 500px;
   }
 
   .table-recent,
+  .table-useful,
   .table-email,
   .table-flick {
-    height: 100%;
-    margin-top:50px;
+    height: 400px;
   }
-
+  #userfull{
+    margin-top: -40px;
+  }
   .table-project {
     margin-top: -40px;
     padding: 0;
-    height: 100%;
-    margin-top:50px;
+    height: 400px;
   }
 
   .table-letter {
-    height: 100%;
-    margin-top: 85px;
+    height: 400px;
+    margin-top: 50px;
     padding: 0;
   }
-  #row-overview{
-    padding-bottom: 10px;
+
+  #table-left {
+    padding-left: 0;
   }
+
+  #table-right {
+    padding-right: 0;
+  }
+
   .text-contact {
     color: #00bcd4;
   }

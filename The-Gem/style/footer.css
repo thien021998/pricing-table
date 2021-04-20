@@ -2,6 +2,7 @@
 @import"Smart/footer-mobie.css";
 @import"Iphone/footer-iphone.css";
 @import"Tablet/footet-tablet.css";
+@import"Ipad/footer-ipad.css";
 #icons-foot{
   display: inline-block;
     vertical-align: top;
