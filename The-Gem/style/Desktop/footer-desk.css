@@ -1,23 +1,26 @@
-@media (min-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .footer {
     padding: 25px;
-    background-color:#181828;
+    background-color: #181828;
   }
-  .foot-icons{
+
+  .foot-icons {
     text-align: right;
   }
 
-  .foot-list{
+  .foot-list {
     margin-bottom: -20px;
     margin-left: 5em;
   }
-  #foot-link{
+
+  #foot-link {
     padding: 0;
     margin-left: 3.5em
   }
-  .foot-text-list{
+
+  .foot-text-list {
     padding-right: 0;
-    border-right:1px dashed #333146
+    border-right: 1px dashed #333146
   }
 
 }

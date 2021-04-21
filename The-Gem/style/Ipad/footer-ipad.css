@@ -1,22 +1,37 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .footer {
     padding: 25px;
-    background-color:#181828;
-  }
-  .foot-icons{
-    text-align: right;
+    background-color: #181828;
   }
 
-  .foot-list{
-    margin-bottom: -20px;
+  .foot-icons {
+    text-align: center;
+  }
+
+  .foot-text {
+    text-align: center;
+  }
+
+  .foot-list {
     margin-left: 5em;
   }
-  #foot-link{
-    padding: 0;
-    margin-left: 3.5em
+
+  .foot-link {
+    text-align: center;
   }
-  .foot-text-list{
+
+  #foot-link {
+    padding: 0;
+    margin-left: 20%;
+  }
+
+  .foot-text-list {
     padding-right: 0;
-    border-right:1px dashed #333146
+    border-right: 1px dashed #333146;
+    font-size: 1em;
+  }
+
+  #text-footer {
+    font-size: 0.9em;
   }
 }

@@ -1,8 +1,12 @@
-@media screen and (min-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .overview {
     background-color: #212331;
     color: #99a9b5;
     font-size: 13px;
+  }
+
+  #overview {
+    padding: 0;
   }
 
   .table-logo {
@@ -10,27 +14,23 @@
   }
 
   .table-contact {
-    height: 500px;
+    height: 400px;
   }
 
   .table-recent,
   .table-useful,
   .table-email,
   .table-flick {
-    height: 400px;
+    height: 350px;
   }
-  #userfull{
-    margin-top: -40px;
-  }
+
   .table-project {
-    margin-top: -40px;
     padding: 0;
-    height: 400px;
+    height: 300px;
   }
 
   .table-letter {
-    height: 400px;
-    margin-top: 50px;
+    height: 200px;
     padding: 0;
   }
 
@@ -44,6 +44,10 @@
 
   .text-contact {
     color: #00bcd4;
+  }
+
+  #contact {
+    padding-top: 40px;
   }
 
   .text-contact:hover {

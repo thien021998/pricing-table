@@ -1,4 +1,4 @@
-@media (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   #nav-desk {
     display: block;
   }
@@ -10,9 +10,15 @@
   #list-menu {
     display: none;
   }
-
-  .dropdown-content {
+  .dropdown-content{
     display: none;
+  }
+  .dropdown-content{
+    display: none;
+  }
+
+  .foot-icons {
+    text-align: right;
   }
 
   #fixnav {
@@ -32,30 +38,26 @@
   }
 
   #nav-link {
-    padding: 0;
-  }
-
-  #nav-col-link {
-    padding: 0;
+    padding-left: 24px;
   }
 
   #nav-icons {
-    padding: 0;
-    margin-top: -15px;
+    padding-left: 0;
   }
 
   #nav-list-icons {
     padding-left: 24px;
+    margin-left: 20px;
   }
 
   .logo-img {
-    height: auto;
-    width: 20%;
+    height: 40px;
+    width: 40px;
     margin-bottom: 15px;
   }
 
   .logo-text {
-    font-size: 1.2em;
+    font-size: x-large;
     font-weight: 800;
     color: white;
   }
@@ -84,7 +86,7 @@
 
   #icons {
     color: #83909d;
-    font-size: 0.9em;
+    font-size: 14px;
   }
 
   .badges {
@@ -100,16 +102,7 @@
 
   .badges-text {
     position: relative;
-    font-size: 0.8;
+    font-size: 10px;
     margin-left: -15px;
-  }
-
-  .list-item-text {
-    display: block;
-    color: #83909d;
-    text-align: center;
-    padding: 0.1px 0.2px;
-    text-decoration: none;
-    font-size: 0.8em;
   }
 }

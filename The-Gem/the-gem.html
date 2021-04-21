@@ -24,8 +24,8 @@
           <img class="logo-img" src="image/logo.png" alt="the gem logo">
           <span class="logo-text" id="logo">THE<b>GEM</b></span>
         </div>
-        <div class="col-md-8">
-          <ul class="list" style="padding-left: 24px;">
+        <div class="col-md-8" id="nav-col-link">
+          <ul class="list" id="nav-link">
             <li class="item-menu vien list-item"><a href="#" class="list-item-text">HOME</a></li>
             <li class="item-menu vien list-item"><a href="#" id="item-header" class="list-item-text"
                 style="	border: 3px ridge white;">PAGES</a></li>
@@ -36,8 +36,8 @@
             <li class="item-menu vien list-item"><a href="#" class="list-item-text">ELEMENTS</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
-          <ul class="list" style="padding-left: 24px;">
+        <div class="col-md-2" id="nav-icons">
+          <ul class="list" id="nav-list-icons">
             <li class="item-menu vien list-item"><img src="image/english.png" alt="Lights" class="list-item-img"></li>
             <li class="item-menu list-item list-item-icons" style="padding-right: 10px;"><i class="fas fa-search"
                 id="icons"></i></li>
@@ -53,17 +53,17 @@
     </div>
 
 
-    <div class="container text-center" id="nav-mobie">
+    <div class="container-fluid text-center" id="nav-mobie">
       <div class="row">
-        <div class="col-xs-3 col-sm-4 col-md-4">
-          <button style="border: none;" onclick="OpenClick()"  id="menu" ><i class="fas fa-bars"></i></button>
-          <button style="border: none;" onclick="CloseClick()"  id="close" ><i class="fas fa-times"></i></button>
+        <div class="col-xs-3 col-sm-4 col-md-4" style="text-align:center">
+          <button style="border: none;" onclick="openClick()"  id="menu" ><i class="fas fa-bars"></i></button>
+          <button style="border: none;" onclick="closeClick()"  id="close" ><i class="fas fa-times"></i></button>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-4">
           <img class="logo-img" src="image/logo.png" alt="the gem logo">
           <span class="logo-text" id="logo">THE<b>GEM</b></span>
         </div>
-        <div class="col-xs-3 col-sm-4 col-md-4" padding: 0;>
+        <div class="col-xs-3 col-sm-4 col-md-4" style="text-align:center">
           <button style="border: none;" id="cart" ><i class="fas fa-shopping-cart"></i></button>
           <!-- <ul class="list" id="nav-list-icons">
             <li class="item-menu vien list-item"><img src="image/english.png" alt="Lights" class="list-item-img"></li>
@@ -81,27 +81,15 @@
     </div>
 
     <div id="list-menu" class="text-center">
-      <h4>
-        HOME
-      </h4>
-      <h4>
-        PAGES
-      </h4>
-      <h4>
-        BLOG
-      </h4>
-      <h4>
-        FORTFOLIOS
-      </h4>
-      <h4>
-        SHOP
-      </h4>
-      <h4>
-        FEATURES
-      </h4>
-      <h4>
-        ELEMENTS
-      </h4>
+      <a href="#" class="drop">HOME</a>
+      <a href="#" class="drop">PAGES</a>
+      <a href="#" class="drop">BLOG</a>
+      <a href="#" class="drop">FORTFOLIOS</a>
+      <a href="#" class="drop">SHOP</a>
+      <a href="#" class="drop">FEATURES</a>
+      <a href="#" class="drop">ELEMENTS</a>
+      <img src="image/english.png" alt="Lights" class="item-img">
+      <i class="fas fa-bars icons-hover"></i>
     </div>
   </nav>
 
@@ -183,7 +171,7 @@
         adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
         dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam voluptatem quia
         voluptas sit aspernatur aut odit aut fugit</p>
-      <div class=" text-center table-body" style="padding: 0;">
+      <div class=" text-center table-body" style="padding: 0;margin-bottom: 42px;">
         <div class="col-md-3 col-sm-6 col-xs-12 item-hover" id="table-desk">
           <div class="table-title">
             <div class="table-scale-top"></div>
@@ -302,9 +290,9 @@
   </div>
 
   <div class="overview">
-    <div class="container bg-3">
+    <div class="container bg-3" id="overview">
       <div  style="padding-top: 60px;">
-        <div class="col-sm-3 col-sm-6 col-xs-12 table-overview" id="table-left">
+        <div class="col-md-3 col-sm-6 col-xs-12 table-overview" id="table-left">
           <div class="table-logo">
             <table>
               <tr>
@@ -323,7 +311,7 @@
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div class="table-contact" style="padding-top: 40px;">
+          <div class="table-contact" id="contact">
             <h3 class="foot-title">CONTACT<i class="icons-title">&#9699;</i></h3>
             <p><i class="fal fa-map-marker-alt"></i> Address: <br> 908 New Hampshire Avenue #100, <br>
               Washington, DC 20037, United States</p>
@@ -335,7 +323,7 @@
 
           </div>
         </div>
-        <div class="col-sm-3 col-sm-6 col-xs-12 table-overview">
+        <div class="col-md-3 col-sm-6 col-xs-12 table-overview">
           <div class="table-recent">
             <h3 class="foot-title">Recent Posts<i class="icons-title">&#9699;</i></h3>
             <table class="list-recent">
@@ -383,8 +371,8 @@
             <p class="text-hover"><i class="fas fa-circle icons-cricle"></i> Basic Knowledge and Experience</p>
           </div>
         </div>
-        <div class="col-sm-3 col-sm-6 col-xs-12 table-overview">
-          <div class="table-email">
+        <div class="col-md-3 col-sm-6 col-xs-12 table-overview">
+          <div class="table-email" id="overview-email">
             <h3 class="foot-title">
               EMAIL US<i class="icons-title">&#9699;</i>
             </h3>
@@ -441,7 +429,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3 col-sm-6 col-xs-12 table-overview" id="table-right">
+        <div class="col-md-3 col-sm-6 col-xs-12 table-overview" id="table-right">
           <div class="table-flick">
             <h3 class="foot-title"> FLICKS FEED<i class="icons-title">&#9699;</i></h3>
             <div class="grid-container">
@@ -455,18 +443,18 @@
               <div class="grid-item">8</div>
               <div class="grid-item">9</div>
             </div>
-            <div class="table-letter">
-              <h3 class="foot-title">
-                NEWSLETTERS<i class="icons-title">&#9699;</i>
-              </h3>
-              <p>Subscribe to our mailChimp newsletter and
-                stay up to date with all events coming straight in your mailbox:
-              </p>
-              <input type="text" class="form-input letter-input" style="border: 2px solid #394050;"
-                placeholder="Your email address"><button style="background-color: #394050;"><i
-                  class="fas fa-angle-right"></i></button>
-              <p><i class="fas fa-circle icons-cricle"></i> Personal information will be encrypted</p>
-            </div>
+          </div>
+          <div class="table-letter">
+            <h3 class="foot-title">
+              NEWSLETTERS<i class="icons-title">&#9699;</i>
+            </h3>
+            <p>Subscribe to our mailChimp newsletter and
+              stay up to date with all events coming straight in your mailbox:
+            </p>
+            <input type="text" class="form-input letter-input" style="border: 2px solid #394050;"
+              placeholder="Your email address"><button style="background-color: #394050;"><i
+                class="fas fa-angle-right"></i></button>
+            <p><i class="fas fa-circle icons-cricle"></i> Personal information will be encrypted</p>
           </div>
         </div>
       </div><br><br>
@@ -477,7 +465,7 @@
   <footer class="container-fluid footer">
     <div class="container bg-3">
       <div class="row">
-        <div class="col-md-3 col-md-push-9 foot-icons" style="padding: 0;">
+        <div class="col-md-3  col-md-push-9 foot-icons" style="padding: 0;">
           <i class="fab fa-twitter" id="icons-foot" style="color: #16a7b9;"></i>
           <i class="fab fa-facebook-f" id="icons-foot" style="color: #315bd6;"></i>
           <i class="fab fa-linkedin-in" id="icons-foot" style="color: #0288d1;"></i>
@@ -486,20 +474,20 @@
           <i class="fab fa-google-plus-g" id="icons-foot" style="color: #f44336;"></i>
           <i class="fab fa-r-project" id="icons-foot" style="color: #ff5757;"></i>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 foot-link" >
           <ul class="list foot-list" id="foot-link">
-            <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text">Support</a>
+            <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text" id="text-footer">Support</a>
             </li>
-            <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text">Contact Us</a>
+            <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text" id="text-footer">Contact Us</a>
             </li>
-            <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text">Disclaimer</a>
+            <li class="item-menu list-item foot-text-list"><a href="#" class="list-item-text" id="text-footer">Disclaimer</a>
             </li>
-            <li class="item-menu list-item"><a href="#" class="list-item-text">privacy Policy</a></li>
+            <li class="item-menu list-item"><a href="#" class="list-item-text" id="text-footer">privacy Policy</a></li>
             </li>
           </ul>
         </div>
-        <div class="col-md-3 col-md-pull-9" style="padding: 0;">
-          <p class="foot-text"><i class="fas fa-parking-circle"></i> Copyright 2015 <span
+        <div class="col-md-3  col-md-pull-9" style="padding: 0;">
+          <p class="foot-text" id="text-footer"><i class="fas fa-parking-circle"></i> Copyright 2015 <span
               style="color: #00bcd4;">CodexThemes</span></p>
         </div>
       </div>

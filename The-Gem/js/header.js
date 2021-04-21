@@ -41,13 +41,14 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 };
 
-function OpenClick(){
+function openClick(){
   Menu.style.display = "none";
   Close.style.display = "block";
   list.style.display = "block";
 };
 
-function CloseClick(){
+function closeClick(){
+  console.log("1: ",document.getElementsByClassName("dropdown-content").display = "none")
   Close.style.display = "none";
   Menu.style.display = "block";
   list.style.display = "none";

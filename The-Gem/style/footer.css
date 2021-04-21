@@ -3,6 +3,7 @@
 @import"Iphone/footer-iphone.css";
 @import"Tablet/footet-tablet.css";
 @import"Ipad/footer-ipad.css";
+@import"ultra/footer-ultra.css";
 #icons-foot{
   display: inline-block;
     vertical-align: top;
@@ -13,26 +14,3 @@
     margin: 0 5px;
     line-height: 16px;
 }
-
-/* .footer {
-  padding: 25px;
-  margin-top: -60px;
-  background-color:#181828;
-}
-.icons-foot {
-  padding: 0 0 0 10px;
-  float: right;
-}
-.foot-list{
-  margin-bottom: -20px;
-}
-.foot-text{
-  margin-left:0;
-}
-.foot-text-list{
-  padding-right: 30px;
-  border-right:1px dashed #333146
-}
-.foot-list-icons{
-  float: right;
-} */

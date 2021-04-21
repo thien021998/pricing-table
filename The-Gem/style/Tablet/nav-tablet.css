@@ -1,33 +1,43 @@
 @media (min-width: 480px) and (max-width: 768px) {
-  #nav-desk{
+  #nav-desk {
     display: none;
   }
-  #nav-mobie{
+
+  #nav-mobie {
     display: block;
     padding: 0;
     margin: 0;
   }
-  #nav-list-icons{
+
+  #nav-list-icons {
     display: none;
   }
+
+  .dropdown-content {
+    display: none;
+  }
+
   .logo-img {
     height: 25px;
     width: 25px;
     margin-bottom: 15px;
   }
+
   .logo-text {
     font-size: larger;
     font-weight: 800;
     color: white;
   }
-  #menu{
+
+  #menu {
     display: block;
     background-color: #2c2e3d;
     color: white;
     font-size: 20px;
     padding: 0;
   }
-  #cart{
+
+  #cart {
     display: block;
     background-color: #2c2e3d;
     color: white;
@@ -35,18 +45,22 @@
     padding: 0;
     float: right;
   }
-  #close{
+
+  #close {
     display: none;
     background-color: #2c2e3d;
     color: white;
     font-size: 20px;
     padding: 0;
   }
-  #list-menu{
+
+  #list-menu {
     display: none;
-    background-color: white;
-    opacity: 0.8;
-    color: black;
-    border-top: 1px solid black;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
   }
 }

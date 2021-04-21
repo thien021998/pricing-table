@@ -1,14 +1,17 @@
-@media (min-width: 240px) and (max-width: 320px) {
+@media screen and (min-width: 1200px) {
   .pricing {
     background-color: white;
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
+  #table-desk {
+    padding: 0;
+  }
+
   .pricing-text {
     margin-bottom: 100px;
     text-align: justify;
-    font-size: 1em;
   }
 
   .table-title {
@@ -120,9 +123,14 @@
   }
 
   .item-hover {
-    padding-bottom: 40px;
+    padding: 0;
     transition: all 1s;
     border: none;
+  }
+
+  .item-hover:hover {
+    background-color: white;
+    transition: all 1s;
   }
 
   .col-text-price {
@@ -135,11 +143,7 @@
     border-bottom: 1px solid #dfe5e7;
     margin: 0;
     padding: 5px;
-    font-size: 0.9em;
-  }
-
-  .col-text-comment {
-    font-size: 1.5em;
+    font-size: 13px;
   }
 
   .col-text-color {

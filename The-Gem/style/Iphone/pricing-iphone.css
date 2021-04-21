@@ -1,16 +1,20 @@
-@media (min-width: 320px) and (max-width: 479px){
-  .pricing{
+@media (min-width: 320px) and (max-width: 479px) {
+  .pricing {
     background-color: white;
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .pricing-text{
+
+  .pricing-text {
     margin-bottom: 100px;
     text-align: justify;
+    font-size: 1em;
   }
-  .table-body{
+
+  .table-body {
     text-align: center;
   }
+
   .table-title {
     height: 120px;
     border: 1px solid #dfe5e7;
@@ -19,17 +23,20 @@
     border-top: none;
     background-color: #f0f3f2;
   }
+
   .table-price {
     height: 120px;
     border: 1px solid #dfe5e7;
     color: white;
   }
+
   .table-comment {
     height: 80px;
     border: 1px solid #dfe5e7;
     background-color: #f0f3f2;
     transition: all 1s;
   }
+
   .table-list {
     height: 180px;
     border: 1px solid #dfe5e7;
@@ -37,9 +44,11 @@
     background-color: #f0f3f2;
     transition: all 1s;
   }
+
   .table-icons {
     font-size: 16px;
   }
+
   .table-btn {
     height: 80px;
     border: 1px solid #dfe5e7;
@@ -48,9 +57,10 @@
     background-color: #f0f3f2;
     transition: all 1s;
   }
+
   .table-scale {
     margin-top: 10px;
-    margin-left:-1px ;
+    margin-left: -1px;
     width: 100.7%;
     height: 30px;
     border: 1px solid #dfe5e7;
@@ -58,8 +68,9 @@
     transition: all 1s;
     background-color: #f0f3f2;
   }
+
   .table-scale-top {
-    margin-left:-1px ;
+    margin-left: -1px;
     width: 100.7%;
     height: 30px;
     border: 1px solid #dfe5e7;
@@ -67,42 +78,51 @@
     transition: all 1s;
     background-color: #f0f3f2;
   }
+
   .item-hover:hover .table-title {
     border: 1px solid #dfe5e7;
     border-top: none;
     background-color: white;
   }
+
   .item-hover:hover .table-comment {
     background-color: white;
   }
+
   .item-hover:hover .table-list {
     background-color: white;
     border-bottom: none;
   }
+
   .item-hover:hover .table-btn {
     border: 1px solid #dfe5e7;
     border-bottom: none;
     border-top: none;
     background-color: white;
   }
+
   .item-hover:hover .table-scale {
     transform: translateY(20px);
     border: 1px solid #dfe5e7;
     border-top: none;
     background-color: white;
   }
+
   .item-hover:hover .table-scale-top {
     transform: translateY(-20px);
     border: 1px solid #dfe5e7;
     border-bottom: none;
     background-color: white;
   }
+
   .text-animation {
     transition: all 1s;
   }
+
   .item-hover:hover .text-animation {
     transform: translateY(-20px);
   }
+
   .item-hover {
     margin-left: 10%;
     max-width: 80%;
@@ -110,24 +130,29 @@
     transition: all 1s;
     border: none;
   }
+
   .col-text-price {
     font-size: 45px;
     font-weight: 500;
     padding: 40px;
   }
+
   .col-text {
     border-bottom: 1px solid #dfe5e7;
     margin: 0;
     padding: 5px;
-    font-size: 13px;
+    font-size: 0.9em;
   }
-  .col-text-comment{
+
+  .col-text-comment {
     font-size: 1.5em;
   }
+
   .col-text-color {
     color: #a0afba;
     font-size: 13px;
   }
+
   .absolute {
     position: absolute;
     top: -30px;
@@ -141,9 +166,11 @@
     color: white;
     transition: all 1s;
   }
+
   .item-hover:hover .absolute {
     transform: translateY(-20px);
   }
+
   .col-btn {
     border-radius: 50px;
     width: 120px;
@@ -153,7 +180,8 @@
     border-color: white;
     color: white;
   }
-  .col-btn:hover{
+
+  .col-btn:hover {
     background-color: #00bcd4
   }
 }

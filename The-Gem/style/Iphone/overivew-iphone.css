@@ -1,43 +1,49 @@
-@media (min-width: 320px) and (max-width: 479px){
+@media (min-width: 320px) and (max-width: 479px) {
   .overview {
     background-color: #212331;
     color: #99a9b5;
-    font-size: 13px;
-    height: 2770px;
+    font-size: 0.9em;
   }
 
-  .table-useful, .table-logo {
-    margin-top:50px;
+  .table-useful,
+  .table-logo {
+    margin-top: 50px;
     height: 100%;
+  }
+
+  #contact {
+    padding-top: 40px;
   }
 
   .table-contact {
     height: 100%;
-    margin-top:50px;
   }
 
   .table-recent,
   .table-email,
   .table-flick {
     height: 100%;
-    margin-top:50px;
+    margin-top: 50px;
   }
 
   .table-project {
     margin-top: -40px;
     padding: 0;
     height: 100%;
-    margin-top:50px;
+    margin-top: 50px;
   }
 
   .table-letter {
     height: 100%;
-    margin-top: 85px;
     padding: 0;
+    margin-top: 60px;
+    margin-bottom: 3em;
   }
-  #row-overview{
+
+  #row-overview {
     padding-bottom: 10px;
   }
+
   .text-contact {
     color: #00bcd4;
   }
@@ -78,7 +84,7 @@
   }
 
   .letter-input {
-    max-width: 200px;
+    max-width: 10em;
   }
 
   .grid-item {
