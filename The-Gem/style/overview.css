@@ -1,6 +1,419 @@
-@import"Desktop/overview-desk.css";
-@import"Smart/overview-mobie.css";
-@import"Iphone/overivew-iphone.css";
-@import"Tablet/overview-tablet.css";
-@import"Ipad/overview-ipad.css";
-@import"ultra/overview-ultra.css";
+.overview {
+  background-color: #212331;
+  color: #99a9b5;
+}
+
+.form-input {
+  color: #99a9b5;
+  background-color: #181828;
+  border: 1px solid #181828;
+  width: 100%;
+}
+
+.form-btn {
+  width: 100%;
+  background-color: #394050;
+  color: #99a9b5;
+  border: 1px solid #394050;
+  height: 35px;
+}
+
+.mySlides-Bottom {
+  display: none;
+}
+
+.dot-bottom {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.grid-item {
+  background-color: #5c6973;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px 10px;
+  grid-template-columns: auto auto auto;
+  background-color: #212331;
+}
+
+.icons-cricle {
+  font-size: 8px;
+  color: #00bcd4;
+}
+
+.icons-cricle:hover {
+  color: white;
+}
+
+.text-hover:hover {
+  color: #00bcd4;
+}
+
+.text-logo {
+  color: white;
+  font-size: 30px;
+}
+
+.text-logo-weight {
+  font-weight: 800;
+}
+
+.text-recent-date {
+  color: #00bcd4;
+}
+
+.icons-recent {
+  float: right;
+}
+
+.icons-recent:hover {
+  color: #00bcd4;
+}
+
+.icons-title {
+  font-size: 13px;
+  color: red
+}
+
+.avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #63707a;
+}
+
+.table-border {
+  border-bottom: 1px dashed #91a0ac;
+  padding: 10px
+}
+
+.email-input {
+  height: 35px;
+}
+
+.letter-input {
+  max-width: 200px;
+}
+
+.text-user {
+  border-bottom: 1px dashed #91a0ac;
+  padding-bottom: 10px;
+}
+
+.text-contact {
+  color: #00bcd4;
+}
+
+.text-contact:hover {
+  color: #99a9b5;
+}
+
+@media (min-width: 240px) and (max-width: 320px) {
+  .overview {
+    font-size: 13px;
+  }
+
+  #userfull {
+    margin-top: 60px;
+  }
+
+  .table-contact {
+    margin-top: 2.9em;
+  }
+
+  .table-recent {
+    margin-top: 3em;
+  }
+
+  .table-email,
+  .table-flick {
+    height: 350px;
+  }
+
+  #overview-email {
+    margin-top: 3em;
+  }
+
+  .table-project {
+    padding: 0;
+    height: 340px;
+  }
+
+  .table-letter {
+    height: 250px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .overview {
+    font-size: 0.9em;
+  }
+
+  .table-useful,
+  .table-logo {
+    margin-top: 50px;
+    height: 100%;
+  }
+
+  #contact {
+    padding-top: 40px;
+  }
+
+  .table-contact {
+    height: 100%;
+  }
+
+  .table-recent,
+  .table-email,
+  .table-flick {
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .table-project {
+    margin-top: -40px;
+    padding: 0;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .table-letter {
+    height: 100%;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 3em;
+  }
+
+  #row-overview {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .overview {
+    font-size: 1em;
+    height: 100%
+  }
+
+  #contact {
+    padding-top: 40px;
+  }
+
+  .table-overview {
+    margin-left: 15%;
+    max-width: 70%;
+    transition: all 1s;
+    border: none;
+    font-size: 1.1em;
+  }
+
+  .table-useful,
+  .table-logo {
+    height: 100%;
+    margin-top: 80px;
+  }
+
+  .table-contact {
+    height: 100%;
+  }
+
+  .table-email,
+  .table-flick {
+    height: 100%;
+  }
+
+  #overview-email {
+    margin-top: 3em;
+  }
+
+  .table-recent {
+    height: 100%;
+    margin-top: 60px;
+  }
+
+  .table-project {
+    padding: 0;
+    height: 340px;
+    margin-top: 80px;
+  }
+
+  .table-letter {
+    height: 250px;
+    margin-top: 85px;
+    padding: 0;
+  }
+
+  .foot-title {
+    font-size: 1.7em;
+  }
+
+  .table-border {
+    border-bottom: 1px dashed #91a0ac;
+  }
+
+  .table-border-avatar {
+    border-bottom: 1px dashed #91a0ac;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .overview {
+    font-size: 13px;
+  }
+
+  .table-logo {
+    height: 300px;
+  }
+
+  .table-contact {
+    height: 100%;
+    margin-top: 3em;
+  }
+
+  #contact {
+    padding-top: 0;
+  }
+
+  .table-recent,
+  .table-email,
+  .table-flick {
+    height: 350px;
+  }
+
+  .table-useful {
+    height: 340px;
+  }
+
+  #userfull {
+    margin-top: 0;
+  }
+
+  .table-project {
+    margin-top: 3.5em;
+    padding: 0;
+    height: 300px;
+  }
+
+  .table-letter {
+    height: 300px;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  #table-left {
+    padding-left: 0;
+  }
+
+  #table-right {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .overview {
+    font-size: 13px;
+  }
+
+  #overview {
+    padding: 0;
+  }
+
+  .table-logo {
+    height: 300px;
+  }
+
+  .table-contact {
+    height: 400px;
+  }
+
+  .table-recent,
+  .table-useful,
+  .table-email,
+  .table-flick {
+    height: 350px;
+  }
+
+  .table-project {
+    padding: 0;
+    height: 300px;
+  }
+
+  .table-letter {
+    height: 200px;
+    padding: 0;
+  }
+
+  #table-left {
+    padding-left: 0;
+  }
+
+  #table-right {
+    padding-right: 0;
+  }
+
+  #contact {
+    padding-top: 4.6em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .overview {
+    font-size: 13px;
+  }
+
+  #overview {
+    padding: 0;
+  }
+
+  .table-logo {
+    height: 300px;
+  }
+
+  .table-contact {
+    height: 500px;
+  }
+
+  #contact {
+    padding-top: 8.6em;
+  }
+
+  #table-left {
+    padding-left: 0;
+  }
+
+  #table-right {
+    padding-right: 0;
+  }
+
+  .table-recent,
+  .table-useful,
+  .table-email,
+  .table-flick {
+    height: 400px;
+  }
+
+  .table-project {
+    padding: 0;
+    height: 400px;
+  }
+
+  .table-letter {
+    height: 400px;
+    padding: 0;
+  }
+}

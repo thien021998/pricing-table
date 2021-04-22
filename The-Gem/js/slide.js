@@ -4,7 +4,7 @@ show();
 
 function show() {
   showSlides(slideIndex,`mySlides`,`dot`);
-  showSlides(slideIndex,`mySlides1`,`dot1`);
+  showSlides(slideIndex,`mySlides-Bottom`,`dot-bottom`);
   setTimeout(show, 3000);
   slideIndex++;
 };

@@ -1,16 +1,168 @@
-@import"Desktop/footer-desk.css";
-@import"Smart/footer-mobie.css";
-@import"Iphone/footer-iphone.css";
-@import"Tablet/footet-tablet.css";
-@import"Ipad/footer-ipad.css";
-@import"ultra/footer-ultra.css";
-#icons-foot{
+#icons-foot {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
+  text-align: center;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 0 5px;
+  line-height: 16px;
+}
+
+.footer {
+  padding: 25px;
+  background-color: #181828;
+}
+
+@media (min-width: 240px) and (max-width: 320px) {
+  .foot-icons {
     text-align: center;
-    -o-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    margin: 0 5px;
-    line-height: 16px;
+  }
+
+  .foot-list {
+    margin-bottom: -20px;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .foot-text {
+    text-align: center;
+  }
+
+  #foot-text-list {
+    padding-right: 0;
+    border-right: 1px dashed #333146
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .foot-icons {
+    text-align: center;
+  }
+
+  .foot-list {
+    margin-bottom: -20px;
+    padding: 0;
+  }
+
+  .foot-text {
+    text-align: center;
+  }
+
+  .foot-text-list {
+    padding-right: 0;
+    border-right: 1px dashed #333146
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .foot-icons {
+    text-align: center;
+  }
+
+  .foot-link {
+    margin-left: 18%;
+  }
+
+  .foot-list {
+    margin-bottom: -20px;
+    padding: 0;
+  }
+
+  .foot-text {
+    text-align: center;
+  }
+
+  .foot-text-list {
+    padding-right: 0;
+    border-right: 1px dashed #333146
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .foot-icons {
+    text-align: center;
+  }
+
+  .foot-text {
+    text-align: center;
+  }
+
+  .foot-list {
+    margin-left: 5em;
+  }
+
+  .foot-link {
+    text-align: center;
+  }
+
+  #foot-link {
+    padding: 0;
+    margin-left: 20%;
+  }
+
+  .foot-text-list {
+    padding-right: 0;
+    border-right: 1px dashed #333146;
+    font-size: 1em;
+  }
+
+  #text-footer {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .foot-icons {
+    text-align: right;
+  }
+
+  .foot-list {
+    margin-bottom: -20px;
+    margin-left: 5em;
+  }
+
+  #foot-link {
+    padding: 0;
+    margin-left: 3.5em
+  }
+
+  .foot-text-list {
+    padding-right: 0;
+    border-right: 1px dashed #333146
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .icons-foot {
+    padding: 0 0 0 10px;
+    float: right;
+  }
+
+  .foot-list {
+    margin-bottom: -20px;
+
+  }
+
+  #foot-link {
+    padding: 0;
+    margin-left: 14%
+  }
+
+  .foot-text {
+    margin-left: 0;
+  }
+
+  #text-footer {
+    padding: 0;
+  }
+
+  .foot-text-list {
+    padding-right: 30px;
+    border-right: 1px dashed #333146
+  }
+
+  .foot-list-icons {
+    float: right;
+  }
 }
