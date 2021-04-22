@@ -56,26 +56,19 @@
     <div class="container-fluid text-center" id="nav-mobie">
       <div class="row">
         <div class="col-xs-3 col-sm-4 col-md-4" style="text-align:center">
-          <button style="border: none;" onclick="openClick()"  id="menu" ><i class="fas fa-bars"></i></button>
-          <button style="border: none;" onclick="closeClick()"  id="close" ><i class="fas fa-times"></i></button>
+          <button style="border: none; width: 50px;" class="dropbtn" onclick="openClick()"  id="menu" ><i class="fas fa-bars dropbtn"></i></button>
+          <button style="border: none; width: 50px;" onclick="closeClick()"  id="close" ><i class="fas fa-times"></i></button>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-4">
           <img class="logo-img" src="image/logo.png" alt="the gem logo">
           <span class="logo-text" id="logo">THE<b>GEM</b></span>
         </div>
         <div class="col-xs-3 col-sm-4 col-md-4" style="text-align:center">
-          <button style="border: none;" id="cart" ><i class="fas fa-shopping-cart"></i></button>
-          <!-- <ul class="list" id="nav-list-icons">
-            <li class="item-menu vien list-item"><img src="image/english.png" alt="Lights" class="list-item-img"></li>
-            <li class="item-menu list-item list-item-icons" style="padding-right: 10px;"><i class="fas fa-search"
-                id="icons"></i></li>
-            <li class="item-menu list-item list-item-icons"><i class="fas fa-shopping-basket" id="icons"></i>
-            </li>
-            <li class="item-menu list-item badges" style="margin-left: 0;">
-              <img src="image/count_product.png" alt="Lights" class="badges-img">
+          <button style="border: none;" id="cart"  class="badges" >
+            <i class="fas fa-shopping-basket"></i>
+            <img src="image/count_product.png" alt="Lights" class="badges-img">
               <span class="badges-text">2</span>
-            </li>
-          </ul> -->
+          </button>
         </div>
       </div>
     </div>
@@ -89,7 +82,7 @@
       <a href="#" class="drop">FEATURES</a>
       <a href="#" class="drop">ELEMENTS</a>
       <img src="image/english.png" alt="Lights" class="item-img">
-      <i class="fas fa-bars icons-hover"></i>
+      <i class="fas fa-search icons-hover"></i>
     </div>
   </nav>
 

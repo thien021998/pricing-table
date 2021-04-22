@@ -10,10 +10,12 @@
   #list-menu {
     display: none;
   }
-  .dropdown-content{
+
+  .dropdown-content {
     display: none;
   }
-  .dropdown-content{
+
+  .dropdown-content {
     display: none;
   }
 
@@ -47,7 +49,7 @@
 
   #nav-list-icons {
     padding-left: 24px;
-    margin-left: 20px;
+    margin-left: 6px;
   }
 
   .logo-img {
@@ -86,7 +88,7 @@
 
   #icons {
     color: #83909d;
-    font-size: 14px;
+    font-size: 1.5em;
   }
 
   .badges {
@@ -98,10 +100,11 @@
     width: 30px;
     height: 15px;
     position: relative;
+    margin-bottom: 10px;
   }
 
   .badges-text {
-    position: relative;
+    position: absolute;
     font-size: 10px;
     margin-left: -15px;
   }

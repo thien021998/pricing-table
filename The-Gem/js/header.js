@@ -53,3 +53,11 @@ function closeClick(){
   Menu.style.display = "block";
   list.style.display = "none";
 }
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    list.style.display = "none";
+    Close.style.display = "none";
+    Menu.style.display = "block";
+  }
+}

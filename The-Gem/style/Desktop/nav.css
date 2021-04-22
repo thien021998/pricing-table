@@ -45,7 +45,7 @@
   }
 
   #nav-list-icons {
-    padding-left: 24px;
+    padding-left: 5px;
   }
 
   .logo-img {
@@ -84,7 +84,7 @@
 
   #icons {
     color: #83909d;
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
 
   .badges {
@@ -96,11 +96,12 @@
     width: 30px;
     height: 15px;
     position: relative;
+    margin-bottom: 10px;
   }
 
   .badges-text {
-    position: relative;
-    font-size: 0.8;
+    position: absolute;
+    font-size: 0.8em;
     margin-left: -15px;
   }
 
