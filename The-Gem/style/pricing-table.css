@@ -1,0 +1,297 @@
+.pricing {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pricing-text {
+  margin-bottom: 100px;
+  text-align: justify;
+}
+
+.table-title {
+  height: 120px;
+  border: 1px solid #dfe5e7;
+  transition: all 1s;
+  border-top: none;
+  background-color: #f0f3f2;
+}
+
+.table-price {
+  height: 120px;
+  color: white;
+}
+
+.table-comment {
+  height: 80px;
+  border: 1px solid #dfe5e7;
+  background-color: #f0f3f2;
+  transition: all 1s;
+}
+
+.table-list {
+  height: 180px;
+  border: 1px solid #dfe5e7;
+  border-bottom: none;
+  background-color: #f0f3f2;
+  transition: all 1s;
+}
+
+.table-icons {
+  font-size: 16px;
+}
+
+.table-btn {
+  height: 80px;
+  border: 1px solid #dfe5e7;
+  border-top: none;
+  border-bottom: none;
+  background-color: #f0f3f2;
+  transition: all 1s;
+}
+
+  .table-scale {
+    margin-top: 10px;
+    margin-left: -1px;
+    width: 100.7%;
+    height: 30px;
+    border: 1px solid #dfe5e7;
+    border-top: none;
+    transition: all 1s;
+    background-color: #f0f3f2;
+  }
+
+  .table-scale-top {
+    margin-left: -1px;
+    width: 100.7%;
+    height: 30px;
+    border: 1px solid #dfe5e7;
+    border-bottom: none;
+    transition: all 1s;
+    background-color: #f0f3f2;
+  }
+
+.item-hover:hover .table-title {
+  border: 1px solid #dfe5e7;
+  border-top: none;
+  background-color: white;
+}
+
+.item-hover:hover .table-comment {
+  background-color: white;
+}
+
+.item-hover:hover .table-list {
+  background-color: white;
+  border-bottom: none;
+}
+
+.item-hover:hover .table-btn {
+  border: 1px solid #dfe5e7;
+  border-bottom: none;
+  border-top: none;
+  background-color: white;
+}
+
+.item-hover:hover .table-scale {
+  transform: translateY(20px);
+  border: 1px solid #dfe5e7;
+  border-top: none;
+  background-color: white;
+}
+
+.item-hover:hover .table-scale-top {
+  transform: translateY(-20px);
+  border: 1px solid #dfe5e7;
+  border-bottom: none;
+  background-color: white;
+}
+
+.text-animation {
+  transition: all 1s;
+}
+
+.item-hover:hover .text-animation {
+  transform: translateY(-20px);
+}
+
+.item-hover {
+  transition: all 1s;
+  border: none;
+}
+
+.col-text-price {
+  font-size: 45px;
+  font-weight: 500;
+  padding: 40px;
+}
+
+.col-text {
+  border-bottom: 1px solid #dfe5e7;
+  margin: 0;
+  padding: 5px;
+}
+
+.col-text-color {
+  color: #a0afba;
+}
+
+.absolute {
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  transition: all 1s;
+}
+
+.item-hover:hover .absolute {
+  transform: translateY(-20px);
+}
+
+.col-btn {
+  border-radius: 50px;
+  width: 120px;
+  height: 40px;
+  background-color: #2b2d3d;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+
+.col-btn:hover {
+  background-color: #00bcd4
+}
+
+.col-text,
+.col-text-color {
+  font-size: 13px;
+}
+
+@media (min-width: 240px) and (max-width: 320px) {
+  .pricing-text {
+    font-size: 1em;
+  }
+
+  .item-hover {
+    padding-bottom: 40px;
+  }
+
+  .col-text {
+    font-size: 0.9em;
+  }
+
+  .col-text-comment {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .pricing-text {
+    font-size: 1em;
+  }
+
+  .table-body {
+    text-align: center;
+  }
+
+  .item-hover {
+    margin-left: 10%;
+    max-width: 80%;
+    padding-bottom: 60px;
+  }
+
+  .col-text {
+    font-size: 0.9em;
+  }
+
+  .col-text-comment {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .table-body {
+    text-align: center;
+  }
+
+  .item-hover {
+    max-width: 50%;
+    padding-bottom: 60px;
+  }
+
+  .col-text {
+    font-size: 0.9em;
+  }
+
+  .col-text-comment {
+    font-size: 1.5em;
+  }
+
+  .col-text-color {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #table-desk {
+    margin-bottom: 2.5em;
+  }
+
+  .item-hover {
+    padding: 0;
+  }
+
+  .table-scale {
+    width: 100.6%;
+  }
+
+  .table-scale-top {
+    width: 100.6%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #table-desk {
+    padding: 0;
+  }
+
+  .item-hover {
+    padding: 0;
+  }
+
+  .col-text-comment {
+    font-size: 1.8em;
+  }
+
+  .table-scale {
+    width: 100.8%;
+  }
+
+  .table-scale-top {
+    width: 100.8%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #table-desk {
+    padding: 0;
+  }
+
+  .item-hover {
+    padding: 0;
+  }
+
+  .table-scale {
+    width: 100.7%;
+  }
+
+  .table-scale-top {
+    width: 100.7%;
+  }
+}

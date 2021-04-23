@@ -1,0 +1,301 @@
+.slide {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #2c2e3d;
+}
+
+.btn-slide:hover {
+  color: #00bcd4;
+  border-color: #00bcd4;
+}
+
+.mySlides {
+  display: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #00bcd4;
+  text-decoration: none;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #00bcd4;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.btn-slide {
+  width: 220px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 1.3em;
+  background-color: #2b2d3d;
+  border-style: ridge;
+  border-color: white;
+  color: white;
+}
+
+.text-slide {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.slide-dot {
+  text-align: center;
+}
+
+.slide-icons {
+  color: #00bcd4;
+}
+
+.slide-dot {
+  margin-top: 60px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 240px) and (max-width: 320px) {
+  .slide-icons {
+    font-size: 5em;
+  }
+
+  .slide-title {
+    font-size: 1.8em;
+  }
+
+  .btn-slide {
+    width: 130px;
+    height: 40px;
+    margin-top: 1em;
+  }
+
+  .text-slide {
+    font-size: 0.95em;
+    margin-top: 20px;
+    max-width: 900px;
+  }
+
+  .slideshow-container {
+    height: 400px;
+  }
+
+  .prev,
+  .next {
+    font-size: 13px;
+  }
+
+  .slide-dot {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .slide-icons {
+    font-size: 5em;
+  }
+
+  .slide-title {
+    font-size: 2.3em;
+  }
+
+  .btn-slide {
+    width: 130px;
+    height: 40px;
+    margin-top: 1em;
+  }
+
+  .text-slide {
+    font-size: 13px;
+    margin-top: 20px;
+    max-width: 900px;
+    font-size: 1em;
+  }
+
+  .slideshow-container {
+    height: 500px;
+  }
+
+  .prev,
+  .next {
+    font-size: 13px;
+  }
+
+  .slide-dot {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .slide-icons {
+    font-size: 4em;
+    margin-bottom: 30px;
+  }
+
+  .slide-title {
+    font-size: 2.3em;
+  }
+
+  .btn-slide {
+    margin-top: 1em;
+  }
+
+  .text-slide {
+    max-width: 900px;
+    font-size: 1em;
+  }
+
+  .slideshow-container {
+    height: 450px;
+  }
+
+  .prev,
+  .next {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .slide-icons {
+    font-size: 4em;
+    margin-bottom: 60px;
+  }
+
+  .slide-title {
+    font-size: 2.3em;
+  }
+
+  .btn-slide {
+    margin-top: 1em;
+  }
+
+  .text-slide {
+    max-width: 80%;
+    font-size: 1em;
+  }
+
+  .slideshow-container {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .slide-icons {
+    font-size: 80px;
+    margin-bottom: 60px;
+  }
+
+  .slide-title {
+    font-size: 40px;
+  }
+
+  .btn-slide {
+    margin-left: 20px;
+  }
+
+  .text-slide {
+    max-width: 900px;
+  }
+
+  .slideshow-container {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slide-icons {
+    font-size: 80px;
+    margin-bottom: 60px;
+  }
+
+  .slide-title {
+    font-size: 40px;
+  }
+
+  .btn-slide {
+    margin-left: 20px;
+  }
+
+  .text-slide {
+    max-width: 900px;
+  }
+
+  .slideshow-container {
+    height: 500px;
+  }
+}
