@@ -57,26 +57,55 @@
 
 .badges-img {
   position: relative;
+  width: 30px;
+  height: 15px;
+  margin-bottom: 10px;
 }
 
 .badges-text {
   position: absolute;
 }
 
+#list-menu {
+  display: none;
+}
+
+#nav-desk {
+  display: none;
+}
+
+#nav-mobie {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-text {
+  color: white;
+}
+
+.list-item-img {
+  width: 23px;
+  height: 13px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.list-item-icons {
+  color: #83909d;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.list-item-text {
+  display: block;
+  color: #83909d;
+  text-align: center;
+  padding: 0.1px 0.2px;
+  text-decoration: none;
+}
+
 @media (min-width: 240px) and (max-width: 320px) {
-  #nav-desk {
-    display: none;
-  }
-
-  #nav-mobie {
-    display: block;
-    padding: 0;
-    margin: 0;
-  }
-
-  #nav-list-icons {
-    display: none;
-  }
 
   .logo-img {
     height: auto;
@@ -87,7 +116,6 @@
   .logo-text {
     font-size: 1em;
     font-weight: 800;
-    color: white;
   }
 
   #menu {
@@ -112,27 +140,9 @@
   #close {
     font-size: 1em;
   }
-
-  #list-menu {
-    display: none;
-  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  #nav-desk {
-    display: none;
-  }
-
-  #nav-mobie {
-    display: block;
-    padding: 0;
-    margin: 0;
-  }
-
-  #nav-list-icons {
-    display: none;
-  }
-
   .logo-img {
     height: 25px;
     width: 25px;
@@ -141,9 +151,7 @@
 
   .logo-text {
     font-size: 1.5em;
-    ;
     font-weight: 800;
-    color: white;
   }
 
   #menu {
@@ -168,27 +176,9 @@
   #close {
     font-size: 20px;
   }
-
-  #list-menu {
-    display: none;
-  }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  #nav-desk {
-    display: none;
-  }
-
-  #nav-mobie {
-    display: block;
-    padding: 0;
-    margin: 0;
-  }
-
-  #nav-list-icons {
-    display: none;
-  }
-
   .logo-img {
     height: 25px;
     width: 25px;
@@ -198,7 +188,6 @@
   .logo-text {
     font-size: larger;
     font-weight: 800;
-    color: white;
   }
 
   #menu {
@@ -223,23 +212,9 @@
   #close {
     font-size: 20px;
   }
-
-  #list-menu {
-    display: none;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  #nav-desk {
-    display: none;
-  }
-
-  #nav-mobie {
-    display: block;
-    padding: 0;
-    margin: 0;
-  }
-
   .logo-img {
     height: 25px;
     width: 25px;
@@ -249,11 +224,6 @@
   .logo-text {
     font-size: 1.5em;
     font-weight: 800;
-    color: white;
-  }
-
-  #nav-list-icons {
-    display: block;
   }
 
   #menu {
@@ -279,10 +249,6 @@
   #close {
     font-size: 20px;
   }
-
-  #list-menu {
-    display: none;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -291,10 +257,6 @@
   }
 
   #nav-mobie {
-    display: none;
-  }
-
-  #list-menu {
     display: none;
   }
 
@@ -324,30 +286,10 @@
   .logo-text {
     font-size: 1.2em;
     font-weight: 800;
-    color: white;
-  }
-
-  .list-item-img {
-    width: 23px;
-    height: 13px;
-    position: relative;
-    margin-top: 10px;
-  }
-
-  .list-item-icons {
-    color: #83909d;
-    margin-top: 5px;
-    font-size: 16px;
   }
 
   #icons {
     font-size: 1.2em;
-  }
-
-  .badges-img {
-    width: 30px;
-    height: 15px;
-    margin-bottom: 10px;
   }
 
   .badges-text {
@@ -356,11 +298,6 @@
   }
 
   .list-item-text {
-    display: block;
-    color: #83909d;
-    text-align: center;
-    padding: 0.1px 0.2px;
-    text-decoration: none;
     font-size: 0.8em;
   }
 }
@@ -374,16 +311,7 @@
     display: none;
   }
 
-  #list-menu {
-    display: none;
-  }
-
   .list-item-text {
-    display: block;
-    color: #83909d;
-    text-align: center;
-    padding: 0.1px 0.2px;
-    text-decoration: none;
     font-size: 1em;
   }
 
@@ -413,29 +341,10 @@
   .logo-text {
     font-size: x-large;
     font-weight: 800;
-    color: white;
   }
 
-  .list-item-img {
-    width: 23px;
-    height: 13px;
-    position: relative;
-    margin-top: 10px;
-  }
-
-  .list-item-icons {
-    color: #83909d;
-    margin-top: 5px;
-    font-size: 16px;
-  }
   #icons {
     font-size: 1.5em;
-  }
-
-  .badges-img {
-    width: 30px;
-    height: 15px;
-    margin-bottom: 10px;
   }
 
   .badges-text {

@@ -83,7 +83,10 @@
 }
 
 .btn-slide {
+  width: 220px;
+  height: 50px;
   border-radius: 50px;
+  margin-left: 1.3em;
   background-color: #2b2d3d;
   border-style: ridge;
   border-color: white;
@@ -127,23 +130,20 @@
 
   .slide-icons {
     font-size: 5em;
-    margin-bottom: 0.4em;
   }
 
   .slide-title {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   .btn-slide {
-    border-radius: 50px;
-    width: 110px;
+    width: 130px;
     height: 40px;
-    margin-left: 1.3em;
     margin-top: 1em;
   }
 
   .text-slide {
-    font-size: 1em;
+    font-size: 0.95em;
     margin-top: 20px;
     max-width: 900px;
   }
@@ -162,7 +162,6 @@
 
   .slide-icons {
     font-size: 5em;
-    margin-bottom: 50px;
   }
 
   .slide-title {
@@ -170,10 +169,8 @@
   }
 
   .btn-slide {
-    border-radius: 50px;
-    width: 110px;
+    width: 130px;
     height: 40px;
-    margin-left: 1.3em;
     margin-top: 1em;
   }
 
@@ -210,9 +207,6 @@
   }
 
   .btn-slide {
-    width: 220px;
-    height: 50px;
-    margin-left: 1.3em;
     margin-top: 1em;
   }
 
@@ -247,9 +241,6 @@
   }
 
   .btn-slide {
-    width: 220px;
-    height: 50px;
-    margin-left: 1.3em;
     margin-top: 1em;
   }
 
@@ -279,8 +270,6 @@
   }
 
   .btn-slide {
-    width: 220px;
-    height: 50px;
     margin-left: 20px;
   }
 
@@ -309,8 +298,6 @@
   }
 
   .btn-slide {
-    width: 220px;
-    height: 50px;
     margin-left: 20px;
   }
 

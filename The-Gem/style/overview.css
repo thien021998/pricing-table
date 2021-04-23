@@ -1,6 +1,7 @@
 .overview {
   background-color: #212331;
   color: #99a9b5;
+  font-size: 13px;
 }
 
 .form-input {
@@ -121,11 +122,17 @@
   color: #99a9b5;
 }
 
-@media (min-width: 240px) and (max-width: 320px) {
-  .overview {
-    font-size: 13px;
-  }
+.table-project {
+  padding: 0;
+  height: 340px;
+}
 
+.table-letter {
+  height: 250px;
+  padding: 0;
+}
+
+@media (min-width: 240px) and (max-width: 320px) {
   #userfull {
     margin-top: 60px;
   }
@@ -147,15 +154,6 @@
     margin-top: 3em;
   }
 
-  .table-project {
-    padding: 0;
-    height: 340px;
-  }
-
-  .table-letter {
-    height: 250px;
-    padding: 0;
-  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -186,14 +184,12 @@
 
   .table-project {
     margin-top: -40px;
-    padding: 0;
     height: 100%;
     margin-top: 50px;
   }
 
   .table-letter {
     height: 100%;
-    padding: 0;
     margin-top: 60px;
     margin-bottom: 3em;
   }
@@ -246,15 +242,12 @@
   }
 
   .table-project {
-    padding: 0;
-    height: 340px;
     margin-top: 80px;
   }
 
   .table-letter {
     height: 250px;
     margin-top: 85px;
-    padding: 0;
   }
 
   .foot-title {
@@ -272,10 +265,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .overview {
-    font-size: 13px;
-  }
-
   .table-logo {
     height: 300px;
   }
@@ -305,14 +294,12 @@
 
   .table-project {
     margin-top: 3.5em;
-    padding: 0;
     height: 300px;
   }
 
   .table-letter {
     height: 300px;
     margin-top: 50px;
-    padding: 0;
   }
 
   #table-left {
@@ -325,10 +312,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .overview {
-    font-size: 13px;
-  }
-
   #overview {
     padding: 0;
   }
@@ -349,13 +332,11 @@
   }
 
   .table-project {
-    padding: 0;
     height: 300px;
   }
 
   .table-letter {
     height: 200px;
-    padding: 0;
   }
 
   #table-left {
@@ -372,10 +353,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .overview {
-    font-size: 13px;
-  }
-
   #overview {
     padding: 0;
   }
@@ -408,12 +385,10 @@
   }
 
   .table-project {
-    padding: 0;
     height: 400px;
   }
 
   .table-letter {
     height: 400px;
-    padding: 0;
   }
 }

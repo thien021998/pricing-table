@@ -14,11 +14,16 @@
   background-color: #181828;
 }
 
-@media (min-width: 240px) and (max-width: 320px) {
-  .foot-icons {
-    text-align: center;
-  }
+.foot-icons {
+  text-align: center;
+}
 
+.foot-text-list {
+  padding-right: 0;
+  border-right: 1px dashed #333146
+}
+
+@media (min-width: 240px) and (max-width: 320px) {
   .foot-list {
     margin-bottom: -20px;
     padding: 0;
@@ -28,18 +33,9 @@
   .foot-text {
     text-align: center;
   }
-
-  #foot-text-list {
-    padding-right: 0;
-    border-right: 1px dashed #333146
-  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .foot-icons {
-    text-align: center;
-  }
-
   .foot-list {
     margin-bottom: -20px;
     padding: 0;
@@ -48,18 +44,9 @@
   .foot-text {
     text-align: center;
   }
-
-  .foot-text-list {
-    padding-right: 0;
-    border-right: 1px dashed #333146
-  }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  .foot-icons {
-    text-align: center;
-  }
-
   .foot-link {
     margin-left: 18%;
   }
@@ -72,18 +59,9 @@
   .foot-text {
     text-align: center;
   }
-
-  .foot-text-list {
-    padding-right: 0;
-    border-right: 1px dashed #333146
-  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .foot-icons {
-    text-align: center;
-  }
-
   .foot-text {
     text-align: center;
   }
@@ -102,8 +80,6 @@
   }
 
   .foot-text-list {
-    padding-right: 0;
-    border-right: 1px dashed #333146;
     font-size: 1em;
   }
 
@@ -125,11 +101,6 @@
   #foot-link {
     padding: 0;
     margin-left: 3.5em
-  }
-
-  .foot-text-list {
-    padding-right: 0;
-    border-right: 1px dashed #333146
   }
 }
 
@@ -159,7 +130,6 @@
 
   .foot-text-list {
     padding-right: 30px;
-    border-right: 1px dashed #333146
   }
 
   .foot-list-icons {

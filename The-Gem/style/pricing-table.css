@@ -6,6 +6,7 @@
 
 .pricing-text {
   margin-bottom: 100px;
+  text-align: justify;
 }
 
 .table-title {
@@ -171,7 +172,6 @@
 
 @media (min-width: 240px) and (max-width: 320px) {
   .pricing-text {
-    text-align: justify;
     font-size: 1em;
   }
 
@@ -194,7 +194,6 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .pricing-text {
-    text-align: justify;
     font-size: 1em;
   }
 
@@ -222,10 +221,6 @@
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  .pricing-text {
-    text-align: justify;
-  }
-
   .table-body {
     text-align: center;
   }
@@ -249,10 +244,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .pricing-text {
-    text-align: justify;
-  }
-
   #table-desk {
     margin-bottom: 2.5em;
   }
@@ -280,10 +271,6 @@
     padding: 0;
   }
 
-  .pricing-text {
-    text-align: justify;
-  }
-
   .item-hover {
     padding: 0;
   }
@@ -305,10 +292,6 @@
 @media screen and (min-width: 1200px) {
   #table-desk {
     padding: 0;
-  }
-
-  .pricing-text {
-    text-align: justify;
   }
 
   .item-hover {
