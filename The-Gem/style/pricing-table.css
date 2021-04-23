@@ -170,6 +170,11 @@
   background-color: #00bcd4
 }
 
+.col-text,
+.col-text-color {
+  font-size: 13px;
+}
+
 @media (min-width: 240px) and (max-width: 320px) {
   .pricing-text {
     font-size: 1em;
@@ -185,10 +190,6 @@
 
   .col-text-comment {
     font-size: 1.5em;
-  }
-
-  .col-text-color {
-    font-size: 13px;
   }
 }
 
@@ -214,10 +215,6 @@
   .col-text-comment {
     font-size: 1.5em;
   }
-
-  .col-text-color {
-    font-size: 13px;
-  }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
@@ -239,7 +236,7 @@
   }
 
   .col-text-color {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 
@@ -250,19 +247,6 @@
 
   .item-hover {
     padding: 0;
-  }
-
-  .item-hover:hover {
-    background-color: white;
-    transition: all 1s;
-  }
-
-  .col-text {
-    font-size: 13px;
-  }
-
-  .col-text-color {
-    font-size: 13px;
   }
 }
 
@@ -275,17 +259,8 @@
     padding: 0;
   }
 
-  .item-hover:hover {
-    background-color: white;
-    transition: all 1s;
-  }
-
-  .col-text {
-    font-size: 13px;
-  }
-
-  .col-text-color {
-    font-size: 13px;
+  .col-text-comment {
+    font-size: 1.8em;
   }
 }
 
@@ -296,18 +271,5 @@
 
   .item-hover {
     padding: 0;
-  }
-
-  .item-hover:hover {
-    background-color: white;
-    transition: all 1s;
-  }
-
-  .col-text {
-    font-size: 13px;
-  }
-
-  .col-text-color {
-    font-size: 13px;
   }
 }

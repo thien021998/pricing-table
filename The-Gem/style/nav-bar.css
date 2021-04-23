@@ -1,8 +1,6 @@
 #fixnav {
   position: fixed;
   width: 100%;
-  top: 0px;
-  left: 0px;
   background-color: #2c2e3d;
   border-radius: 0px;
   color: white;
@@ -142,7 +140,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .logo-img {
     height: 25px;
     width: 25px;
@@ -171,42 +169,6 @@
   .badges-text {
     font-size: 10px;
     margin-left: 1.45em;
-  }
-
-  #close {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-  .logo-img {
-    height: 25px;
-    width: 25px;
-    margin-bottom: 15px;
-  }
-
-  .logo-text {
-    font-size: larger;
-    font-weight: 800;
-  }
-
-  #menu {
-    font-size: 20px;
-  }
-
-  #cart {
-    font-size: 20px;
-  }
-
-  .badges-img {
-    width: 30px;
-    height: 15px;
-    float: right;
-  }
-
-  .badges-text {
-    font-size: 10px;
-    margin-left: 1.45em
   }
 
   #close {

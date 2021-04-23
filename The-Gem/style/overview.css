@@ -223,10 +223,7 @@
     margin-top: 80px;
   }
 
-  .table-contact {
-    height: 100%;
-  }
-
+  .table-contact,
   .table-email,
   .table-flick {
     height: 100%;
@@ -316,7 +313,8 @@
     padding: 0;
   }
 
-  .table-logo {
+  .table-logo,
+  .table-project {
     height: 300px;
   }
 
@@ -329,10 +327,6 @@
   .table-email,
   .table-flick {
     height: 350px;
-  }
-
-  .table-project {
-    height: 300px;
   }
 
   .table-letter {
@@ -380,15 +374,13 @@
   .table-recent,
   .table-useful,
   .table-email,
-  .table-flick {
-    height: 400px;
-  }
-
+  .table-flick,
   .table-project {
     height: 400px;
   }
 
   .table-letter {
     height: 400px;
+    padding: 0;
   }
 }

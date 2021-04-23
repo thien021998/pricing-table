@@ -3,21 +3,21 @@ var slideIndex = 0;
 show();
 
 function show() {
-  showSlides(slideIndex,`mySlides`,`dot`);
-  showSlides(slideIndex,`mySlides-Bottom`,`dot-bottom`);
+  showSlides(slideIndex, `mySlides`, `dot`);
+  showSlides(slideIndex, `mySlides-Bottom`, `dot-bottom`);
   setTimeout(show, 3000);
   slideIndex++;
 };
 
-function plusSlides(number,slide,dot) {
-  showSlides(slideIndex +=number,slide,dot);
+function plusSlides(number, slide, dot) {
+  showSlides(slideIndex += number, slide, dot);
 };
 
-function currentSlide(number,slide,dot) {
-  showSlides(slideIndex = number,slide,dot);
+function currentSlide(number, slide, dot) {
+  showSlides(slideIndex = number, slide, dot);
 };
 
-function showSlides(number,slide,dot) {
+function showSlides(number, slide, dot) {
   var i;
   var slides = document.getElementsByClassName(slide);
   var dots = document.getElementsByClassName(dot);
